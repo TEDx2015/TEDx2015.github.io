@@ -18,7 +18,7 @@ body {
     background-color: rgb(214, 24, 15);
     color: white;
 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #header h1 {
@@ -39,23 +39,28 @@ body {
 #header a {
     color: white;
 }
-
 #header a:hover {
-    color: #eee;
-}
-
-#header a:active {
     color: white;
 }
-
 #header a:visited {
     color: white;
+}
+
+a {
+    color: #076c85;
+}
+a:hover {
+    color: #214b67;
+}
+a:visited {
+    color: #076c85;
 }
 
 .centered {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
 }
 
 p {
@@ -68,8 +73,8 @@ p {
     background-size: cover;
     background-color: gray;
     background-position: center center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #footer {

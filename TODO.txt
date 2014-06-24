@@ -5,7 +5,5 @@
     - Venue
     - Date/location
     - Link to TEDx
-    - What is TEDx?
     - About page
     - Sponsor page
-    - Footer
