@@ -30,6 +30,10 @@ body {
     line-height:50px;
 }
 
+#header h1 a {
+    text-decoration: none;
+}
+
 #header .right {
     float: right;
     height:50px;
@@ -61,10 +65,6 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-}
-
-p {
-    text-indent: 10px;
 }
 
 .imgbreak {
