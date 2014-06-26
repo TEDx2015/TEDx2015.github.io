@@ -1,10 +1,16 @@
 {{> head }}
     <div class="centered">
         <h2>Meet the Speakers</h2>
-        <p>We have some amazing speakers this year.
+        <p>We have some amazing speakers this year. This is the part where we brag about them. Because we can. We need to convince you to come. I'm not sure why. This is very stressful.
+    </div>
 
+        <div class="imgbreak" style="background-image:url('http://lorempixel.com/g/1000/300/nature')">
+        </div>
+
+    <div class="centered">
         {{# speakers}}
-            {{name}}
+            <h3>{{name}}</h3>
+            <p>{{bio}}
         {{/ speakers}}
     </div>
 {{> foot }}
