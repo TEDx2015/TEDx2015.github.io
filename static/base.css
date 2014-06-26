@@ -1,7 +1,7 @@
 body {
     font-family: "Open Sans", "Helvetica", sans-serif;
-    margin: 0;
-    padding: 118px 0 0 0;
+    margin: 0px;
+    padding: 0px;
 }
 * {
     box-sizing: border-box;
@@ -15,16 +15,12 @@ header {
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-	position: fixed;
 	width: 100%;
-	top: 0;
-	z-index: 2;
 }
 header img {
 	height: 40px;
 }
 div.container {
-	padding: 72px 0;
 	margin: auto;
 }
 header div.container {
@@ -140,8 +136,8 @@ a:visited {
 		width: 900px;
 	}
 }
-div.container:after { 
+div.container:after {
    content: "";
-   display: block; 
+   display: block;
    clear: both;
 }
