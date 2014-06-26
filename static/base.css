@@ -38,7 +38,6 @@ ul.nav li {
     border-radius: 4px;
 }
 ul.nav li:hover {
-    background-color: #eee;
 }
 ul.nav li a {
     color: #333;
@@ -54,7 +53,7 @@ ul.nav li a:visited {
     text-decoration: none;
 }
 ul.nav li a:hover {
-    color: #333;
+    color: #375e81;
     text-decoration: none;
 }
 ul.nav li a:active {
