@@ -22,7 +22,8 @@ body {
 }
 
 #header h1 {
-    font-weight: 400;
+    font-weight: 100;
+    letter-spacing: -0.05em;
 
     margin: 0px;
     float: left;
@@ -30,7 +31,9 @@ body {
     height:50px;
     line-height:50px;
 }
-
+#header h1 a strong {
+    font-weight: bold;
+}
 #header h1 a {
     text-decoration: none;
 }
