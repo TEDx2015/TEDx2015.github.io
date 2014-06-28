@@ -17,12 +17,14 @@ header {
 	width: 100%;
 }
 header img {
-    margin-left: 20px;
     height: 40px;
 }
-
+.container {
+	padding: 36px 0;
+	margin: auto;
+}
 header .container {
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 ul.nav {
@@ -109,8 +111,7 @@ a:visited {
         font-size: 25px;
     }
 }
-
-div.container:after {
+.container:after {
     content: "";
     display: block;
     clear: both;
