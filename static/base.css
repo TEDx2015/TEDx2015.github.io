@@ -1,7 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300,600);
 body {
     font-family: "Open Sans", "Helvetica", sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 * {
     box-sizing: border-box;
@@ -11,7 +13,7 @@ body {
     clear: both;
 }
 header {
-	margin: 0px;;
+	margin: 0;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
 	width: 100%;
@@ -71,7 +73,12 @@ a:hover {
 a:visited {
     color: #076c85;
 }
-
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+}
+strong, b {
+	font-weight: 600;
+}
 .centered {
     max-width: 500px;
     margin-left: auto;
