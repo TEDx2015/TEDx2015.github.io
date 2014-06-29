@@ -24,20 +24,16 @@ header {
 header img {
     height: 40px;
 }
-.container {
-	padding: 36px 0;
-	margin: auto;
-}
 header .container {
     padding: 20px 40px;
 }
 
 ul.social li {
     float: left;
-    padding-right: 10px;
 }
 ul.social {
     list-style: none;
+    margin-top: 2px;
 }
 ul.nav {
     list-style: none;
