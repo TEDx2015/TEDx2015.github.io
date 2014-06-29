@@ -32,6 +32,13 @@ header .container {
     padding: 20px 40px;
 }
 
+ul.social li {
+    float: left;
+    padding-right: 10px;
+}
+ul.social {
+    list-style: none;
+}
 ul.nav {
     list-style: none;
     margin: 0;
