@@ -11,4 +11,9 @@ python -m SimpleHTTPServer&
 ./build.sh
 ```
 
-[Rules we must abide...](http://www.ted.com/participate/organize-a-local-tedx-event/tedx-organizer-guide/branding-promotions/your-event-website)
+[Rules by which we must abide](http://www.ted.com/participate/organize-a-local-tedx-event/tedx-organizer-guide/branding-promotions/your-event-website)
+
+TODO
+----
+- Redesign almost everything (low priority)
+- Get new photos for the 'break' pictures?
