@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700);
 body {
     font-family: "Open Sans", "Helvetica", sans-serif;
     font-weight: 300;
@@ -16,10 +16,10 @@ header {
     border-top-style: solid;
     border-top-width:7px;
     border-top-color:red;
-	margin: 0;
-	background-color: #fff;
-	border-bottom: 1px solid #ccc;
-	width: 100%;
+	  margin: 0;
+	  background-color: #fff;
+	  border-bottom: 1px solid #ccc;
+	  width: 100%;
 }
 header img {
     height: 40px;
@@ -107,7 +107,6 @@ strong, b {
     background-size: cover;
     background-color: gray;
     background-position: center center;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -131,4 +130,14 @@ strong, b {
     content: "";
     display: block;
     clear: both;
+}
+
+a.btn {
+  background-color: red;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 2px;
+  text-decoration: none;
 }
