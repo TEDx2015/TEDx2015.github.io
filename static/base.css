@@ -92,6 +92,9 @@ strong, b {
   margin-right: auto;
   padding: 30px;
 }
+.truly-centered {
+  text-align: center;
+}
 .float-left {
   float: left;
 }
@@ -142,4 +145,7 @@ img.award {
 }
 img.award:last-of-type {
   margin-bottom: 3em;
+}
+.video-masthead {
+  margin-top: 3em;
 }
