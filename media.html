@@ -8,57 +8,40 @@
         <link rel="apple-touch-icon-precomposed" href="/static/apple-touch-icon-precomposed.png"/>
         <link rel="shortcut icon" href="/static/favicon.png"/>
         <link rel="stylesheet" href="/static/base.css" type="text/css"charset="utf-8"/>
-        <script src="/static/main.js" charset="utf-8"></script>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <script src="https://apis.google.com/js/platform.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
 
     </head>
     <body>
-        <header>
-            <div class="container">
-                <img alt="TEDx Gunn High School" src="static/TEDx_logo_vector.svg" />
-                <ul class="nav float-right">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="team.html">Team Members</a></li>
-                    <li><a href="http://tinyurl.com/tedxyoutube">2014 Conference</a></li>
-                    <li><a href="media.html">Media</a></li>
-                </ul>
-            </div>
-        </header>
-    <div class="centered">
-        <h2>Media Coverage of TEDxGunnHighSchool</h2>
-        <ul class="unstyled">
-          <li>2014 &mdash; <a href="http://hepg.org/hel-home/issues/30_1/helarticle/ted-ifying-school">Harvard Education Letter</a></li>
-          <li>2013 &mdash; <a href="https://www.edsurge.com/n/2013-09-17-better-than-the-debate-club">Edsurge</a></li>
-          <li>2013 &mdash; <a href="http://www.fastcoexist.com/3017768/at-this-high-school-you-go-to-tedx-class">Fastcoexist</a></li>
-          <li>2014 &mdash; <a href="http://www2.paloaltoonline.com/news/2014/01/15/teens-seek-inspiration-in-speaker-quest">Palo Alto Weekly</a></li>
-          <li>2014 &mdash; <a href="http://www.paloaltoonline.com/news/2014/04/10/student-service-entrepreneurs-think-globally-and-locally">Palo Alto Weekly</a></li>
-          <li>2012 &mdash; <a href="http://gunnoracle.com/2012/06/tedx-speakers-inspire-students-to-think-outside-the-box/">Gunn Oracle</a></li>
-          <li>2014 &mdash; <a href="http://gunnoracle.com/2014/01/gunn-hosts-student-organized-tedx-conference-in-spangenberg/">Gunn Oracle</a></li>
-        </ul>
-    </div>
-    <img class="award" src="static/award1.jpg" />
-    <img class="award" src="static/award2.jpg" />
-    <div class="imgbreak" style="background-image:url('static/break2.gif')">
-    </div>
-    <ul class="centered social">
-      <li>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="TEDxGunnHigh">Tweet</a>
-      </li>
-      <li>
-        <div class="g-ytsubscribe" data-channel="TEDxGunnHighSchool" data-layout="default" data-count="default"></div>
-      </li>
-      <li style="padding-left: 30px">
-        <div class="fb-like" data-href="https://www.facebook.com/TEDxGunnHighSchool" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" data-width="107"></div>
-      </li>
-    </ul>
-    <div id="footer" class="centered">
-        <p>This independent TEDx event is operated under license from TED.
-        <p>&copy; 2014 &middot; <a href="http://hardmath123.github.io">Webmaster</a>
-    </div>
-</body>
+        <!-- header template here -->
+        <link id="headerTemplate" rel="import" href="head.html">
+
+        <!-- BEGIN CONTENT -->
+        <div class="centered">
+            <h2>Media Coverage of TEDxGunnHighSchool</h2>
+            <ul class="unstyled">
+              <li>2014 &mdash; <a href="http://hepg.org/hel-home/issues/30_1/helarticle/ted-ifying-school">Harvard Education Letter</a></li>
+              <li>2013 &mdash; <a href="https://www.edsurge.com/n/2013-09-17-better-than-the-debate-club">Edsurge</a></li>
+              <li>2013 &mdash; <a href="http://www.fastcoexist.com/3017768/at-this-high-school-you-go-to-tedx-class">Fastcoexist</a></li>
+              <li>2014 &mdash; <a href="http://www2.paloaltoonline.com/news/2014/01/15/teens-seek-inspiration-in-speaker-quest">Palo Alto Weekly</a></li>
+              <li>2014 &mdash; <a href="http://www.paloaltoonline.com/news/2014/04/10/student-service-entrepreneurs-think-globally-and-locally">Palo Alto Weekly</a></li>
+              <li>2012 &mdash; <a href="http://gunnoracle.com/2012/06/tedx-speakers-inspire-students-to-think-outside-the-box/">Gunn Oracle</a></li>
+              <li>2014 &mdash; <a href="http://gunnoracle.com/2014/01/gunn-hosts-student-organized-tedx-conference-in-spangenberg/">Gunn Oracle</a></li>
+            </ul>
+        </div>
+        <img class="award" src="static/award1.jpg" />
+        <img class="award" src="static/award2.jpg" />
+        <div class="imgbreak" style="background-image:url('static/break2.gif')">
+        </div>
+        <!-- END CONTENT -->
+
+
+        <link id="footerTemplate" rel="import" href="foot.html">
+        <!-- footer template here -->
+
+        <script src="static/main.js" charset="utf-8"></script>
+  </body>
 </html>
