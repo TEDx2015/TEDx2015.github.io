@@ -28,7 +28,9 @@ ul {
   list-style-type: square;
 }
 ul.social li {
-  float: left;
+  /*float: left;*/
+  padding: 5px;
+  /*display: inline-block;*/
 }
 ul.social {
   list-style: none;
@@ -82,9 +84,14 @@ a:visited {
 }
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
+  line-height: 110%;
 }
 strong, b {
   font-weight: 600;
+}
+h2 small {
+  font-size: 11pt;
+  color:gray;
 }
 .centered {
   max-width: 500px;
